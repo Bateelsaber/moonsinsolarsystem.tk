@@ -1,0 +1,531 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+}
+div{
+  z-index: 1;
+}
+h1 {
+  font-size: 12.5px;
+  z-index: 1;
+  font-weight: normal;
+  position: absolute;
+  font-family: Helvetica Neue;
+  color: #d4dafe;
+  word-spacing: 0.2px;
+  text-transform: uppercase;
+}
+
+h2 {
+  /*overflow-y: hidden !important;*/
+  font-size: 12.5px;
+z-index: 1;
+  font-weight: normal;
+  font-family: Helvetica Neue;
+  color: #d4dafe;
+  word-spacing: 0.2px;
+  text-transform: uppercase;
+  z-index: 1;
+  top: 272px;
+   left: 1160px;
+   position: relative;
+   width: 100px;
+   height: auto;
+   text-align: right;
+   margin-bottom: 157px;
+
+}
+
+h3{
+      text-transform: none;
+}
+.emoonname, .mmoonname, .mmoonname2, .pmoonname1, .pmoonname2, .pmoonname3, .pmoonname4, .pmoonname5, .nmoonname1,
+ .nmoonname2,  .nmoonname3,  .nmoonname4,  .nmoonname5,  .nmoonname6,  .nmoonname7,  .nmoonname8,  .nmoonname9,
+ .nmoonname10,  .nmoonname11,  .nmoonname12,  .nmoonname13, .nmoonname14,
+.umoonname1, .umoonname2, .umoonname3, .umoonname4, .umoonname5, .umoonname6, .umoonname7, .umoonname8, .umoonname9,
+.umoonname10, .umoonname11, .umoonname12, .umoonname13, .umoonname14, .umoonname15, .umoonname16, .umoonname17, .umoonname18,
+.umoonname19, .umoonname20, .umoonname21, .umoonname22, .umoonname23, .umoonname24, .umoonname25, .umoonname26, .umoonname27
+ {
+    font-family: Helvetica Neue;
+  position: fixed;
+  width: 300px;
+  z-index: 1;
+  left: 50px;
+  top: 30px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+.earthnumber, .marsnumber, .marsnumber2, .plutonumber1, .plutonumber2, .plutonumber3, .plutonumber4, .plutonumber5,
+.uranusnumber1, .uranusnumber2, .uranusnumber3, .uranusnumber4, .uranusnumber5, .uranusnumber6, .uranusnumber7, .uranusnumber8, .uranusnumber9,
+.uranusnumber10, .uranusnumber11, .uranusnumber12, .uranusnumber13, .uranusnumber14, .uranusnumber15, .uranusnumber16, .uranusnumber17, .uranusnumber18,
+.uranusnumber19, .uranusnumber20, .uranusnumber21, .uranusnumber22, .uranusnumber23, .uranusnumber24, .uranusnumber25, .uranusnumber26, .uranusnumber27
+{
+    font-family: Helvetica Neue;
+  position: fixed;
+  z-index: 1;
+  left:235px;
+  top: 40px;
+  font-size: 42px;
+  font-weight: 400;
+  display: none;
+}
+
+.uranusnumber1, .uranusnumber2, .uranusnumber3, .uranusnumber4, .uranusnumber5, .uranusnumber6, .uranusnumber7, .uranusnumber8, .uranusnumber9,
+.uranusnumber10, .uranusnumber11, .uranusnumber12, .uranusnumber13, .uranusnumber14, .uranusnumber15, .uranusnumber16, .uranusnumber17, .uranusnumber18,
+.uranusnumber19, .uranusnumber20, .uranusnumber21, .uranusnumber22, .uranusnumber23, .uranusnumber24, .uranusnumber25, .uranusnumber26, .uranusnumber27
+{
+    font-family: Helvetica Neue;
+  position: fixed;
+  z-index: 1;
+  left:255px;
+  top: 40px;
+  font-size: 42px;
+  font-weight: 400;
+  display: none;
+}
+
+.neptunenumber1,
+ .neptunenumber2,  .neptunenumber3,  .neptunenumber4,  .neptunenumber5,  .neptunenumber6,  .neptunenumber7,  .neptunenumber8,  .neptunenumber9,
+ .neptunenumber10,  .neptunenumber11,  .neptunenumber12,  .neptunenumber13, .neptunenumber14{
+    font-family: Helvetica Neue;
+  position: fixed;
+  z-index: 1;
+  left:260px;
+  top: 40px;
+  font-size: 42px;
+  font-weight: 400;
+  display: none;
+}
+.earthmoon, .marsmoon, .marsmoon2, .plutomoon1, .plutomoon2, .plutomoon3, .plutomoon4, .plutomoon5, .neptunemoon1,
+ .neptunemoon2,  .neptunemoon3,  .neptunemoon4,  .neptunemoon5,  .neptunemoon6,  .neptunemoon7,  .neptunemoon8,  .neptunemoon9,
+ .neptunemoon10,  .neptunemoon11,  .neptunemoon12,  .neptunemoon13, .neptunemoon14,
+ .uranusmoon1, .uranusmoon2, .uranusmoon3, .uranusmoon4, .uranusmoon5, .uranusmoon6, .uranusmoon7, .uranusmoon8, .uranusmoon9,
+ .uranusmoon10, .uranusmoon11, .uranusmoon12, .uranusmoon13, .uranusmoon14, .uranusmoon15, .uranusmoon16, .uranusmoon17, .uranusmoon18,
+ .uranusmoon19, .uranusmoon20, .uranusmoon21, .uranusmoon22, .uranusmoon23, .uranusmoon24, .uranusmoon25, .uranusmoon26, .uranusmoon27
+ {
+    font-family: Helvetica Neue;
+  position: fixed;
+  z-index: 1;
+  left: 50px;
+  top: 80px;
+  font-size: 20px;
+  font-weight: lighter;
+    text-transform: none;
+    letter-spacing: 0.5px;
+    display: none;
+
+}
+
+.earthnumber1, .marsnumber1, .marsnumber21, .plutonumber10, .plutonumber20, .plutonumber30, .plutonumber40, .plutonumber50, .neptunenumber10,
+ .neptunenumber20,  .neptunenumber30,  .neptunenumber40,  .neptunenumber50,  .neptunenumber60,  .neptunenumber70,  .neptunenumber80,  .neptunenumber90,
+ .neptunenumber100,  .neptunenumber110,  .neptunenumber120,  .neptunenumber130, .neptunenumber140,
+ .uranusnumber010, .uranusnumber020, .uranusnumber030, .uranusnumber040, .uranusnumber050, .uranusnumber060, .uranusnumber070, .uranusnumber080, .uranusnumber090,
+ .uranusnumber0100, .uranusnumber0110, .uranusnumber0120, .uranusnumber0130, .uranusnumber0140, .uranusnumber0150, .uranusnumber0160, .uranusnumber0170, .uranusnumber0180,
+ .uranusnumber0190, .uranusnumber0200, .uranusnumber0210, .uranusnumber0220, .uranusnumber0230, .uranusnumber0240, .uranusnumber0250, .uranusnumber0260, .uranusnumber0270{
+    font-family: Helvetica Neue;
+  position: fixed;
+  z-index: 1;
+  left:185px;
+  top: 100px;
+  font-size: 42px;
+  font-weight: 400;
+  display: none;
+}
+.earthmoon1, .marsmoon1, .marsmoon21, .plutomoon10, .plutomoon20, .plutomoon30, .plutomoon40, .plutomoon50, .neptunemoon10,
+ .neptunemoon20,  .neptunemoon30,  .neptunemoon40,  .neptunemoon50,  .neptunemoon60,  .neptunemoon70,  .neptunemoon80,  .neptunemoon90,
+ .neptunemoon100,  .neptunemoon110,  .neptunemoon120,  .neptunemoon130, .neptunemoon140,
+ .uranusmoon010, .uranusmoon020, .uranusmoon030, .uranusmoon040, .uranusmoon050, .uranusmoon060, .uranusmoon070, .uranusmoon080, .uranusmoon090,
+ .uranusmoon0100, .uranusmoon0110, .uranusmoon0120, .uranusmoon0130, .uranusmoon0140, .uranusmoon0150, .uranusmoon0160, .uranusmoon0170, .uranusmoon0180,
+ .uranusmoon0190, .uranusmoon0200, .uranusmoon0210, .uranusmoon0220, .uranusmoon0230, .uranusmoon0240, .uranusmoon0250, .uranusmoon0260, .uranusmoon0270
+ {
+    font-family: Helvetica Neue;
+  position: fixed;
+  z-index: 1;
+  left: 50px;
+  top: 140px;
+  font-size: 20px;
+  font-weight: lighter;
+    text-transform: none;
+    letter-spacing: 0.5px;
+    display: none;
+
+}
+
+
+.warap{
+  width: 1825px;
+  height: 70000px;
+  background-color: black;
+  position: absolute;
+  left:0px;
+  top: 0px;
+  opacity: 0.8;
+
+}
+
+
+.divsun{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 215px;
+  height: 200px;
+
+}
+
+.dive{
+  position: absolute;
+  left: 215px;
+  top: 0;
+  width: 215px;
+  height: 200px;
+
+}
+.divm{
+  position: absolute;
+  left: 430px;
+  top: 0;
+  width: 215px;
+  height: 200px;
+
+}
+
+.divj{
+  position: absolute;
+  left: 645px;
+  top: 0;
+  width: 215px;
+  height: 200px;
+
+}
+.divs{
+  position: absolute;
+  left: 860px;
+  top: 0;
+  width: 215px;
+  height: 200px;
+
+}
+
+.divu{
+  position: absolute;
+  left: 1075px;
+  top: 0;
+  width: 215px;
+  height: 200px;
+
+}
+.divn{
+  position: absolute;
+  left: 1290px;
+  top: 0;
+  width: 215px;
+  height: 200px;
+
+}
+
+.divp{
+  position: absolute;
+  left: 1505px;
+  top: 0;
+  width: 215px;
+  height: 200px;
+
+}
+
+
+
+
+.km50{
+  z-index: 1;
+  top: 260px;
+   left: 1160px;
+   position: absolute;
+   width: 100px;
+   height: 100px;
+   text-align: right;
+}
+
+.km100{
+  text-align: right;
+  z-index: 1;
+  top: 435px;
+   left: 1160px;
+   position: absolute;
+   width: 100px;
+   height: 100px;
+}
+.km150{
+  text-align: right;
+  z-index: 1;
+  top: 605px;
+   left: 1160px;
+   position: absolute;
+   width: 100px;
+   height: 100px;
+}
+
+.km200{
+  text-align: right;
+  z-index: 1;
+  top: 775px;
+   left: 1160px;
+   position: absolute;
+   width: 100px;
+   height: 100px;
+}
+
+.km250{
+  text-align: right;
+  z-index: 1;
+  top: 945px;
+   left: 1160px;
+   position: absolute;
+   width: 100px;
+   height: 100px;
+}
+.km300{
+  text-align: right;
+  z-index: 1;
+  top: 1115px;
+   left: 1160px;
+   position: absolute;
+   width: 100px;
+   height: 100px;
+}
+
+.km350{
+  text-align: right;
+  z-index: 1;
+  top: 1285px;
+   left: 1160px;
+   position: absolute;
+   width: 100px;
+   height: 100px;
+}
+
+.km400{
+  text-align: right;
+  z-index: 1;
+  top: 1458px;
+   left: 1160px;
+   position: absolute;
+   width: 100px;
+   height: 100px;
+}
+
+.km450{
+  text-align: right;
+  z-index: 1;
+  top: 1630px;
+   left: 1160px;
+   position: absolute;
+   width: 100px;
+   height: 100px;
+}
+
+.km500{
+  text-align: right;
+  z-index: 1;
+  top: 1800px;
+   left: 1160px;
+   position: absolute;
+   width: 100px;
+   height: 100px;
+}
+
+
+
+
+
+.sunplanet {
+    overflow-y: hidden !important;
+  content: ' \25CF';
+  z-index: 1;
+ width: 94px;
+ height: 94px;
+ border-radius: 50%;
+border-color: #d4dafe;
+color: #d4dafe;
+border-width: 1.8px;
+border: solid;
+ position: absolute;
+ background-color: none;
+
+
+  left: 40px;
+ top: 10px;
+}
+.sunplanettext{
+  left:32px;
+  top: 30px;
+}
+.mjava, .ejava, .sjava, .ujava, .jjava, .njava{
+  display: none;
+}
+
+.mjava1, .ejava1, .sjava1, .ujava1, .jjava1, .njava1{
+  opacity: .001;
+}
+
+
+.earthplanettext{
+  left:25px;
+  top: 30px;
+}
+
+.earthplanet {
+  content: ' \25CF';
+  z-index: 1;
+ width: 94px;
+ height: 94px;
+ border-radius: 50%;
+border-color: #d4dafe;
+color: #d4dafe;
+border-width: 1.8px;
+border: solid;
+ position: absolute;
+ background-color: none;
+
+
+  left: 57px;
+ top: 10px;
+}
+
+.marsplanet {
+  content: ' \25CF';
+  z-index: 1;
+ width: 94px;
+ height: 94px;
+ border-radius: 50%;
+border-color: #d4dafe;
+color: #d4dafe;
+border-width: 1.8px;
+border: solid;
+ position: absolute;
+ background-color: none;
+
+
+  left: 57px;
+ top: 10px;
+}
+.marsplanettext{
+  left:28px;
+  top: 30px;
+}
+
+
+.jupiterplanet {
+  content: ' \25CF';
+  z-index: 1;
+ width: 94px;
+ height: 94px;
+ border-radius: 50%;
+border-color: #d4dafe;
+color: #d4dafe;
+border-width: 1.8px;
+border: solid;
+ position: absolute;
+ background-color: none;
+
+
+  left: 57px;
+ top: 10px;
+}
+.jupiterplanettext{
+  left:21px;
+  top: 30px;
+}
+
+
+.saturnplanet {
+  content: ' \25CF';
+  z-index: 1;
+ width: 94px;
+ height: 94px;
+ border-radius: 50%;
+border-color: #d4dafe;
+color: #d4dafe;
+border-width: 1.8px;
+border: solid;
+ position: absolute;
+ background-color: none;
+
+
+  left: 57px;
+ top: 10px;
+}
+.saturnplanettext{
+  left:22px;
+  top: 30px;
+}
+
+.uranusplanet {
+  content: ' \25CF';
+  z-index: 1;
+ width: 94px;
+ height: 94px;
+ border-radius: 50%;
+border-color: #d4dafe;
+color: #d4dafe;
+border-width: 1.8px;
+border: solid;
+ position: absolute;
+ background-color: none;
+
+
+  left: 57px;
+ top: 10px;
+}
+.uranusplanettext{
+  left:21px;
+  top: 30px;
+}
+
+
+.neptuneplanet {
+  content: ' \25CF';
+  z-index: 1;
+ width: 94px;
+ height: 94px;
+ border-radius: 50%;
+border-color: #d4dafe;
+color: #d4dafe;
+border-width: 1.8px;
+border: solid;
+ position: absolute;
+ background-color: none;
+
+
+  left: 57px;
+ top: 10px;
+}
+.neptuneplanettext{
+  left:18px;
+  top: 30px;
+}
+
+
+.plutoplanet {
+  content: ' \25CF';
+  z-index: 1;
+ width: 94px;
+ height: 94px;
+ border-radius: 50%;
+border-color: #d4dafe;
+color: #d4dafe;
+border-width: 1.8px;
+border: solid;
+ position: absolute;
+ background-color: none;
+
+
+  left: 57px;
+ top: 10px;
+}
+.plutoplanettext{
+  left:27px;
+  top: 30px;
+}

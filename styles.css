@@ -1,0 +1,1312 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+div{
+  z-index: 1;
+}
+
+
+
+h4 {
+  width:1278px;
+  font-size: 36.5px;
+  z-index: 1;
+  font-weight: normal;
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  font-family: Helvetica Neue;
+  color: #dfefec;
+  top: 300px;
+  word-spacing: -0.2px;
+  text-transform: uppercase;
+}
+
+
+h1 {
+  font-size: 12.5px;
+  z-index: 1;
+  font-weight: normal;
+  position: absolute;
+  font-family: Helvetica Neue;
+  color: #dfefec;
+  word-spacing: 0.2px;
+  text-transform: uppercase;
+}
+
+.earth{
+  left:828px;
+  top: 195px;
+}
+
+.earth1{
+  left:828px;
+  top: 195px;
+  display: none
+}
+
+
+.saturn{
+  left:234px;
+  top: 68px;
+}
+.saturn1{
+  left:234px;
+  top: 68px;
+  display: none
+}
+
+.pluto{
+  left:65px;
+  top: 588px;
+}
+.pluto1{
+  left:65px;
+  top: 588px;
+  display: none
+}
+
+.mars{
+  left:326px;
+  top: 406px;
+}
+.mars1{
+  left:326px;
+  top: 406px;
+  display: none
+}
+
+.uranus{
+  left:1073px;
+  top: 105px;
+}
+.uranus1{
+  left:1073px;
+  top: 105px;
+  display: none
+}
+
+
+.neptune{
+  left:1144px;
+  top: 451px;
+}
+.neptune1{
+  left:1144px;
+  top: 451px;
+  display: none
+}
+
+.jupiter{
+  left:871px;
+  top: 547px;
+}
+.jupiter1{
+  left:871px;
+  top: 547px;
+  display: none
+}
+
+h1{
+  width: auto;
+  height: auto;
+}
+
+.wara{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  left:0px;
+  top: 0px;
+  opacity: 0.9;
+display: none;
+}
+
+.earth2 {
+  content: ' \25CF';
+  z-index: 1;
+ width: 94px;
+ height: 94px;
+ border-radius: 50%;
+border-color: #dfefec;
+color: #dfefec;
+border-width: 1.8px;
+border: solid;
+ position: absolute;
+ background-color: none;
+ opacity: .01;
+
+  left: 799.5px;
+ top: 160.5px;
+}
+
+.saturn2 {
+  content: ' \25CF';
+  z-index: 1;
+ width: 94px;
+ height: 94px;
+ border-radius: 50%;
+border-color: #dfefec;
+color: #dfefec;
+border-width: 1.8px;
+border: solid;
+ position: absolute;
+ background-color: none;
+opacity: .01;
+
+  left: 210px;
+ top: 34px;
+}
+
+
+.mars2 {
+  content: ' \25CF';
+  z-index: 1;
+ width: 94px;
+ height: 94px;
+ border-radius: 50%;
+border-color: #dfefec;
+color: #dfefec;
+border-width: 1.8px;
+border: solid;
+ position: absolute;
+ background-color: none;
+opacity: .01;
+
+  left: 296.5px;
+ top: 372px;
+}
+
+
+.pluto2 {
+  content: ' \25CF';
+  z-index: 1;
+ width: 94px;
+ height: 94px;
+ border-radius: 50%;
+border-color: #dfefec;
+color: #dfefec;
+border-width: 1.8px;
+border: solid;
+ position: absolute;
+ background-color: none;
+opacity: .01;
+
+  left: 37px;
+ top: 554.5px;
+}
+
+.uranus2 {
+  content: ' \25CF';
+  z-index: 1;
+ width: 94px;
+ height: 94px;
+ border-radius: 50%;
+border-color: #dfefec;
+color: #dfefec;
+border-width: 1.8px;
+border: solid;
+ position: absolute;
+ background-color: none;
+ opacity: .01;
+
+  left: 1051.5px;
+ top: 71.5px;
+}
+
+.neptune2 {
+  content: ' \25CF';
+  z-index: 1;
+ width: 85px;
+ height: 85px;
+ border-radius: 50%;
+border-color: #dfefec;
+color: #dfefec;
+border-width: 1.8px;
+border: solid;
+ position: absolute;
+ background-color: none;
+ opacity: .01;
+
+  left: 1129.4px;
+ top: 420.5px;
+}
+
+
+.jupiter2 {
+  content: ' \25CF';
+  z-index: 1;
+ width: 94px;
+ height: 94px;
+ border-radius: 50%;
+border-color: #dfefec;
+color: #dfefec;
+border-width: 1.8px;
+border: solid;
+ position: absolute;
+ background-color: none;
+ opacity: .011;
+
+  left: 849px;
+ top: 513px;
+}
+
+h2{
+      text-transform: none;
+}
+
+.earthnumber{
+  position: absolute;
+  z-index: 1;
+  left: 920px;
+  top: 140px;
+  font-size: 42px;
+  font-weight: 400;
+  display: none;
+}
+.earthmoon{
+  position: absolute;
+  z-index: 1;
+  left: 953px;
+  top: 180px;
+  font-size: 20px;
+  font-weight: lighter;
+    text-transform: none;
+    letter-spacing: 0.5px;
+    display: none;
+
+}
+
+.saturnnumber{
+  position: absolute;
+  z-index: 1;
+  left: 330px;
+  top: 12px;
+  font-size: 42px;
+  font-weight: 400;
+  display: none;
+}
+.saturnmoon{
+  position: absolute;
+  z-index: 1;
+  left: 390px;
+  top: 50px;
+  font-size: 20px;
+  font-weight: lighter;
+    text-transform: none;
+    letter-spacing: 0.5px;
+    display: none;
+
+}
+
+.marsnumber{
+  position: absolute;
+  z-index: 1;
+  left: 420px;
+  top: 355px;
+  font-size: 42px;
+  font-weight: 400;
+  display: none;
+}
+
+.marsmoon{
+  position: absolute;
+  z-index: 1;
+  left: 458px;
+  top: 395px;
+  font-size: 20px;
+  font-weight: lighter;
+    text-transform: none;
+    letter-spacing: 0.5px;
+    display: none;
+
+}
+
+.plutonumber{
+  position: absolute;
+  z-index: 1;
+  left: 155px;
+  top: 535px;
+  font-size: 42px;
+  font-weight: 400;
+  display: none;
+}
+.plutomoon{
+  position: absolute;
+  z-index: 1;
+  left: 195px;
+  top: 572px;
+  font-size: 20px;
+  font-weight: lighter;
+    text-transform: none;
+    letter-spacing: 0.5px;
+    display: none;
+
+}
+
+.jupiternumber{
+  position: absolute;
+  z-index: 1;
+  left: 970px;
+  top: 493px;
+  font-size: 42px;
+  font-weight: 400;
+  display: none;
+}
+.jupitermoon{
+  position: absolute;
+  z-index: 1;
+  left: 1028px;
+  top: 530px;
+  font-size: 20px;
+  font-weight: lighter;
+    text-transform: none;
+    letter-spacing: 0.5px;
+    display: none;
+
+}
+
+.neptunenumber{
+  position: absolute;
+  z-index: 1;
+  left: 1130px;
+  top: 493px;
+  font-size: 42px;
+  font-weight: 400;
+  display: none;
+}
+.neptunemoon{
+  position: absolute;
+  z-index: 1;
+  left: 1188px;
+  top: 530px;
+  font-size: 20px;
+  font-weight: lighter;
+    text-transform: none;
+    letter-spacing: 0.5px;
+    display: none;
+
+}
+
+.uranusnumber{
+  position: absolute;
+  z-index: 1;
+  left: 1060px;
+  top: 142px;
+  font-size: 42px;
+  font-weight: 400;
+  display: none;
+}
+.uranusmoon{
+  position: absolute;
+  z-index: 1;
+  left: 1120px;
+  top: 180px;
+  font-size: 20px;
+  font-weight: lighter;
+    text-transform: none;
+    letter-spacing: 0.5px;
+    display: none;
+
+}
+
+.emoonname{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  left: 818px;
+  top: 131px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.pmoonname1{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  left: 170px;
+  top: 513px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.pmoonname2{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  left: 123px;
+  top: 492px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.pmoonname3{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  left: 176px;
+  top: 592px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.pmoonname4{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  left: 65px;
+  top: 510px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.pmoonname5{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  left: 188px;
+  top: 552px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.mmoonname1{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  left: 395px;
+  top: 310px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.mmoonname2{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  left: 438px;
+  top: 350px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.jmoonname1{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  left: 975px;
+  top: 445px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.jmoonname2{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  left: 1007px;
+  top: 575px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+
+.jmoonname3{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  left: 865px;
+  top: 475px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+
+.jmoonname4{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  left: 860px;
+  top: 535px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+
+.jmoonname5{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  left: 890px;
+  top: 590px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.jmoonname6{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  left: 815px;
+  top: 445px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+
+.jmoonname7{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  left: 1013px;
+  top: 495px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+
+.jmoonname8{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  left: 907px;
+  top: 442px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+
+.jmoonname9{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  left: 1052px;
+  top: 535px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+
+.jmoonname10{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  left: 825px;
+  top: 587px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.jmoonname11{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  left: 1031px;
+  top: 442px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.jmoonname12{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  left: 813px;
+  top: 505px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.jmoonname13{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  left: 855px;
+  top: 407px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.jmoonname14{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  left: 1022px;
+  top: 355px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.jmoonname15{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  left: 1060px;
+  top: 589px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+
+.jmoonname16{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  left: 760px;
+  top: 475px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+
+.jmoonname17{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  left: 760px;
+  top: 415px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+
+.jmoonname18{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  left: 995px;
+  top: 396px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+
+.jmoonname19{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  left: 935px;
+  top: 393px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+
+.jmoonname20{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  left: 1073px;
+  top: 485px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.jmoonname21{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  left: 713px;
+  top: 441px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.jmoonname22{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  left: 780px;
+  top: 545px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.jmoonname23{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  left: 798px;
+  top: 385px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.jmoonname24{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  left: 742px;
+  top: 524px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.jmoonname25{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  left: 967px;
+  top: 350px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.jmoonname26{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  left: 753px;
+  top: 590px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.jmoonname27{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  left: 943px;
+  top: 593px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.jmoonname28{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  left: 883px;
+  top: 369px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.jmoonname29{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  left: 1143px;
+  top: 593px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+
+
+
+.nmoonname1{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 1135px;
+  top: 370px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.nmoonname2{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 1065px;
+  top: 358px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+
+.nmoonname3{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 1065px;
+  top: 493px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+
+.nmoonname4{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 1140px;
+  top: 405px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+
+.nmoonname5{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 1130px;
+  top: 455px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.nmoonname6{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 1018px;
+  top: 370px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+
+.nmoonname7{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 975px;
+  top: 370px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+
+.nmoonname8{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 1110px;
+  top: 334px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+
+.nmoonname9{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 1015px;
+  top: 333px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+
+.nmoonname10{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 1175px;
+  top: 367px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.nmoonname11{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 1141px;
+  top: 490px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.nmoonname12{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 980px;
+  top: 485px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.nmoonname13{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 978px;
+  top: 447px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.nmoonname14{
+  position: absolute;
+  width: 120px;
+  z-index: 1;
+  left: 962px;
+  top: 409px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+
+
+
+
+
+
+
+.umoonname1{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 1055px;
+  top: 35px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.umoonname2{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 1070px;
+  top: 67px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+
+.umoonname3{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 927px;
+  top: 65px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+
+.umoonname4{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 980px;
+  top: 35px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+
+.umoonname5{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 950px;
+  top: 135px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.umoonname6{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 982px;
+  top: 156px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+
+.umoonname7{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 1050px;
+  top: 146px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+
+.umoonname8{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 940px;
+  top: 106px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+
+.umoonname9{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 1082px;
+  top: 117px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+
+.umoonname10{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 998px;
+  top: 15px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.umoonname11{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 970px;
+  top: 5px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.umoonname12{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 900px;
+  top: 33px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.umoonname13{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 1025px;
+  top: 0px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.umoonname14{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 1032px;
+  top: 30px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.umoonname15{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 1082px;
+  top: 145px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+
+.umoonname16{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 1090px;
+  top: 90px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+
+.umoonname17{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 1100px;
+  top: 121px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+
+.umoonname18{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 1115px;
+  top: 35px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+
+.umoonname19{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 945px;
+  top: 173px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+
+.umoonname20{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 1023px;
+  top: 179px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.umoonname21{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 930px;
+  top: 71px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.umoonname22{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 895px;
+  top: 143px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.umoonname23{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 1118px;
+  top: 63px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.umoonname24{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 872px;
+  top: 110px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.umoonname25{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 907px;
+  top: 10px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.umoonname26{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 1053px;
+  top: -10px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
+
+.umoonname27{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  left: 879px;
+  top: 45px;
+  font-size: 22px;
+  font-weight: 400;
+  display: none;
+}
