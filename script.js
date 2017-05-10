@@ -3,6 +3,7 @@
 $(".title").click(function() {
 $(this).css("display", "none");
 $(".titleimg").css("display", "none");
+  $(".titleprint").css("display", "none");
 });
 
 
