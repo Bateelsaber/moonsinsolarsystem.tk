@@ -24,6 +24,22 @@ h4 {
   text-transform: uppercase;
 }
 
+h5 {
+  width:1278px;
+  font-size: 12.5px;
+  z-index: 1;
+  font-weight: normal;
+  position: absolute;
+  text-align: right;
+  margin: auto;
+  font-family: Helvetica Neue;
+  color: #dfefec;
+  top: 70px;
+  margin-right:70px;
+  word-spacing: -0.2px;
+  text-transform: uppercase;
+}
+
 
 h1 {
   font-size: 12.5px;
